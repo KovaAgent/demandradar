@@ -1,0 +1,729 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "generated_at": "2026-02-26T02:12:41.619219+00:00",
+    "sources_scanned": [
+      "hn",
+      "github",
+      "reddit"
+    ],
+    "source_counts": {
+      "hn": 186,
+      "github": 0,
+      "reddit": 200
+    },
+    "raw_signal_count": 386,
+    "processed_signal_count": 386,
+    "topic": null,
+    "lookback_days": 30,
+    "max_signals_per_source": 200,
+    "extraction_method": "heuristic",
+    "clustering_method": "keyword_similarity"
+  },
+  "themes": [
+    {
+      "theme": "1Password pricing increasing up to 33% in March.",
+      "signal_count": 216,
+      "avg_frustration": 2.24,
+      "sources": [
+        "hn",
+        "reddit"
+      ],
+      "top_source": "hn",
+      "source_counts": {
+        "hn": 149,
+        "reddit": 67
+      },
+      "signals": [
+        {
+          "signal_id": "hn:47150071",
+          "source": "hn",
+          "title": "What breaks when AI agent frameworks are forced into <1MB RAM and sub-ms startup",
+          "url": "https://news.ycombinator.com/item?id=47150071",
+          "author": "NULLCLAW",
+          "created_at": "2026-02-25T11:15:03Z",
+          "engagement": {
+            "score": 3,
+            "comments": 2
+          },
+          "problem_statement": "What breaks when AI agent frameworks are forced into <1MB RAM and sub-ms startup.",
+          "target_audience": "Indie founders / startup teams",
+          "existing_solutions": [
+            "pushing higher-level logic int"
+          ],
+          "frustration_level": 1,
+          "frequency_indicator": "Single signal (monitor for repeats)",
+          "keywords": [
+            "memory",
+            "agent",
+            "break",
+            "framework",
+            "forced",
+            "startup",
+            "environment",
+            "dynamic"
+          ],
+          "raw_excerpt": "Most AI agent frameworks today assume environments with: - dynamic runtimes - long-lived processes - large dependency trees - forgiving memory behaviorThat works fine in the cloud, but breaks quickly when you push int...",
+          "metadata": {
+            "hn_tags": [
+              "story",
+              "author_NULLCLAW",
+              "story_47150071",
+              "ask_hn"
+            ],
+            "story_id": 47150071,
+            "story_title": null,
+            "search_source": "ask_hn"
+          }
+        },
+        {
+          "signal_id": "reddit:1re2qg8",
+          "source": "reddit",
+          "title": "\ud835\udc13\ud835\udc21\ud835\udc1e \ud835\udc03\ud835\udc22\ud835\udc2b\ud835\udc1e\ud835\udc1c\ud835\udc2d\ud835\udc28\ud835\udc2b, \ud835\udc00\ud835\udc1c\ud835\udc2d\ud835\udc28\ud835\udc2b, \ud835\udc1a\ud835\udc27\ud835\udc1d \ud835\udc02\ud835\udc2b\ud835\udc22\ud835\udc2d\ud835\udc22\ud835\udc1c \ud835\udc29\ud835\udc1a\ud835\udc2d\ud835\udc2d\ud835\udc1e\ud835\udc2b\ud835\udc27",
+          "url": "https://www.reddit.com/r/SideProject/comments/1re2qg8/\ud835\udc13\ud835\udc21\ud835\udc1e_\ud835\udc03\ud835\udc22\ud835\udc2b\ud835\udc1e\ud835\udc1c\ud835\udc2d\ud835\udc28\ud835\udc2b_\ud835\udc00\ud835\udc1c\ud835\udc2d\ud835\udc28\ud835\udc2b_\ud835\udc1a\ud835\udc27\ud835\udc1d_\ud835\udc02\ud835\udc2b\ud835\udc22\ud835\udc2d\ud835\udc22\ud835\udc1c_\ud835\udc29\ud835\udc1a\ud835\udc2d\ud835\udc2d\ud835\udc1e\ud835\udc2b\ud835\udc27/",
+          "author": "ConsiderationNo5977",
+          "created_at": "2026-02-25T03:58:38+00:00",
+          "engagement": {
+            "score": 1,
+            "comments": 3
+          },
+          "problem_statement": "\ud835\udc13\ud835\udc21\ud835\udc1e \ud835\udc03\ud835\udc22\ud835\udc2b\ud835\udc1e\ud835\udc1c\ud835\udc2d\ud835\udc28\ud835\udc2b, \ud835\udc00\ud835\udc1c\ud835\udc2d\ud835\udc28\ud835\udc2b, \ud835\udc1a\ud835\udc27\ud835\udc1d \ud835\udc02\ud835\udc2b\ud835\udc22\ud835\udc2d\ud835\udc22\ud835\udc1c \ud835\udc29\ud835\udc1a\ud835\udc2d\ud835\udc2d\ud835\udc1e\ud835\udc2b\ud835\udc27.",
+          "target_audience": "Developers",
+          "existing_solutions": [
+            "it for the past few months . A",
+            "it"
+          ],
+          "frustration_level": 1,
+          "frequency_indicator": "Recurring pain mention",
+          "keywords": [
+            "framework",
+            "never",
+            "break",
+            "autonomou",
+            "agent",
+            "critic",
+            "building",
+            "few"
+          ],
+          "raw_excerpt": "Most of what I build never leaves my machine. I keep tweaking until it's perfect, and perfect never comes. I'm trying to break that habit, so here's my first real attempt at sharing something publicly. One of my recen...",
+          "metadata": {
+            "subreddit": "SideProject",
+            "is_self": true
+          }
+        },
+        {
+          "signal_id": "reddit:1qobzux",
+          "source": "reddit",
+          "title": "What environments produce the best startups. I will not promote",
+          "url": "https://www.reddit.com/r/startups/comments/1qobzux/what_environments_produce_the_best_startups_i/",
+          "author": "After_Meringue_1582",
+          "created_at": "2026-01-27T12:03:55+00:00",
+          "engagement": {
+            "score": 36,
+            "comments": 28
+          },
+          "problem_statement": "What environments produce the best startups.",
+          "target_audience": "Indie founders / startup teams",
+          "existing_solutions": [
+            "on funding rounds"
+          ],
+          "frustration_level": 3,
+          "frequency_indicator": "Recurring pain mention",
+          "keywords": [
+            "startup",
+            "environment",
+            "often",
+            "founder",
+            "exposure",
+            "operating",
+            "fintech",
+            "spin-off"
+          ],
+          "raw_excerpt": "I analyzed **300+ European startup spin-offs** to answer a question that comes up often here: *What kinds of environments consistently prepare people to start scalable companies?* Instead of focusing on funding rounds...",
+          "metadata": {
+            "subreddit": "startups",
+            "is_self": true
+          }
+        }
+      ],
+      "keywords": [
+        "wish",
+        "startup",
+        "agent",
+        "video",
+        "building",
+        "google",
+        "game",
+        "year",
+        "system",
+        "app"
+      ],
+      "score": 483.84,
+      "rank": 1
+    },
+    {
+      "theme": "SEO for startups - is it still worth it, or has AI optimization &amp;...",
+      "signal_count": 37,
+      "avg_frustration": 2.84,
+      "sources": [
+        "hn",
+        "reddit"
+      ],
+      "top_source": "reddit",
+      "source_counts": {
+        "hn": 12,
+        "reddit": 25
+      },
+      "signals": [
+        {
+          "signal_id": "hn:47160338",
+          "source": "hn",
+          "title": "Tell HN: Cursor has an agent CLI, and it's better than Claude Code",
+          "url": "https://news.ycombinator.com/item?id=47160338",
+          "author": "melecas",
+          "created_at": "2026-02-26T00:52:25Z",
+          "engagement": {
+            "score": 2,
+            "comments": 1
+          },
+          "problem_statement": "Tell HN: Cursor has an agent CLI, and it's better than Claude Code.",
+          "target_audience": "Software builders",
+          "existing_solutions": [
+            "Claude Code without knowing th"
+          ],
+          "frustration_level": 1,
+          "frequency_indicator": "Single signal (monitor for repeats)",
+          "keywords": [
+            "cursor",
+            "cli",
+            "claude",
+            "code",
+            "agent",
+            "better",
+            "tell",
+            "stumbled"
+          ],
+          "raw_excerpt": "Stumbled on this today. Cursor ships a CLI agent (not just the IDE) and after a day of use I'm making it my default.What's actually better:- Model flexibility: you're not locked to one provider - Performance: noticeab...",
+          "metadata": {
+            "hn_tags": [
+              "story",
+              "author_melecas",
+              "story_47160338",
+              "ask_hn"
+            ],
+            "story_id": 47160338,
+            "story_title": null,
+            "search_source": "ask_hn"
+          }
+        },
+        {
+          "signal_id": "hn:47157670",
+          "source": "hn",
+          "title": "Tell HN: Vibe Coding Taxonomy",
+          "url": "https://news.ycombinator.com/item?id=47157670",
+          "author": "andai",
+          "created_at": "2026-02-25T20:50:54Z",
+          "engagement": {
+            "score": 1,
+            "comments": 0
+          },
+          "problem_statement": "Tell HN: Vibe Coding Taxonomy.",
+          "target_audience": "Software builders",
+          "existing_solutions": [],
+          "frustration_level": 2,
+          "frequency_indicator": "Single signal (monitor for repeats)",
+          "keywords": [
+            "coding",
+            "vibe",
+            "taxonomy",
+            "level",
+            "programmer",
+            "code",
+            "tell",
+            "first"
+          ],
+          "raw_excerpt": "So I have this taxonomy right now. The first 3 levels live in Programmer Land. The 4th one is available to both programmers and non-programmers.1. Tradcoding (no AI. You just do it manually)2. Power Coding (\"Add a fun...",
+          "metadata": {
+            "hn_tags": [
+              "story",
+              "author_andai",
+              "story_47157670",
+              "ask_hn"
+            ],
+            "story_id": 47157670,
+            "story_title": null,
+            "search_source": "ask_hn"
+          }
+        },
+        {
+          "signal_id": "hn:47153920",
+          "source": "hn",
+          "title": "Ask HN: What would happen if unleashed an AI agent with no limits?",
+          "url": "https://news.ycombinator.com/item?id=47153920",
+          "author": "ex-aws-dude",
+          "created_at": "2026-02-25T16:38:20Z",
+          "engagement": {
+            "score": 2,
+            "comments": 0
+          },
+          "problem_statement": "Ask HN: What would happen if unleashed an AI agent with no limits?",
+          "target_audience": "Software builders",
+          "existing_solutions": [
+            "this"
+          ],
+          "frustration_level": 3,
+          "frequency_indicator": "Single signal (monitor for repeats)",
+          "keywords": [
+            "agent",
+            "happen",
+            "unleashed",
+            "limit",
+            "run",
+            "tell",
+            "whatever",
+            "give"
+          ],
+          "raw_excerpt": "Say you run an agent on a PC and tell it to just do whatever it wants and give it complete control of the PC.What would it end up doing?Has anyone tried this?",
+          "metadata": {
+            "hn_tags": [
+              "story",
+              "author_ex-aws-dude",
+              "story_47153920",
+              "ask_hn"
+            ],
+            "story_id": 47153920,
+            "story_title": null,
+            "search_source": "ask_hn"
+          }
+        }
+      ],
+      "keywords": [
+        "agent",
+        "code",
+        "building",
+        "claude",
+        "built",
+        "human",
+        "actually",
+        "marketing",
+        "business",
+        "tell"
+      ],
+      "score": 105.08,
+      "rank": 2
+    },
+    {
+      "theme": "I analyzed 1.3M App Store reviews across 3,744 apps.",
+      "signal_count": 17,
+      "avg_frustration": 3.18,
+      "sources": [
+        "hn",
+        "reddit"
+      ],
+      "top_source": "reddit",
+      "source_counts": {
+        "hn": 1,
+        "reddit": 16
+      },
+      "signals": [
+        {
+          "signal_id": "hn:47155964",
+          "source": "hn",
+          "title": "IMockupper: I built an AI tool to automate App Store asset generation",
+          "url": "https://news.ycombinator.com/item?id=47155964",
+          "author": "damdafayton",
+          "created_at": "2026-02-25T18:49:58Z",
+          "engagement": {
+            "score": 2,
+            "comments": 0
+          },
+          "problem_statement": "IMockupper: I built an AI tool to automate App Store asset generation.",
+          "target_audience": "Software builders",
+          "existing_solutions": [],
+          "frustration_level": 2,
+          "frequency_indicator": "Single signal (monitor for repeats)",
+          "keywords": [
+            "screenshot",
+            "imockupper",
+            "built",
+            "automate",
+            "app",
+            "store",
+            "asset",
+            "generation"
+          ],
+          "raw_excerpt": "Instead of browsing rigid templates, you just describe the environment you want (e.g., \"dark mode, neon purple accents, floating 3D perspective\") and the AI builds a professional scene around your screenshot globally...",
+          "metadata": {
+            "hn_tags": [
+              "story",
+              "author_damdafayton",
+              "story_47155964",
+              "ask_hn"
+            ],
+            "story_id": 47155964,
+            "story_title": null,
+            "search_source": "ask_hn"
+          }
+        },
+        {
+          "signal_id": "reddit:1rebl65",
+          "source": "reddit",
+          "title": "Built an iOS app focused on crypto news and market sentiment. Would love feedback.",
+          "url": "https://www.reddit.com/r/SideProject/comments/1rebl65/built_an_ios_app_focused_on_crypto_news_and/",
+          "author": "Possible-Alfalfa-893",
+          "created_at": "2026-02-25T12:13:54+00:00",
+          "engagement": {
+            "score": 1,
+            "comments": 0
+          },
+          "problem_statement": "Built an iOS app focused on crypto news and market sentiment.",
+          "target_audience": "Software builders",
+          "existing_solutions": [],
+          "frustration_level": 4,
+          "frequency_indicator": "Recurring pain mention",
+          "keywords": [
+            "news",
+            "sentiment",
+            "crypto",
+            "market",
+            "app",
+            "built",
+            "feedback",
+            "article"
+          ],
+          "raw_excerpt": "Hey everyone, I\u2019ve been building a small iOS app called Crypto TLDR and wanted to share it here to get honest feedback. The core idea is simple. Crypto moves on news and narrative shifts. By the time price reacts, the...",
+          "metadata": {
+            "subreddit": "SideProject",
+            "is_self": true
+          }
+        },
+        {
+          "signal_id": "reddit:1rdisn4",
+          "source": "reddit",
+          "title": "I built a marketplace where developers can find validated app ideas to build - NeedThis.app",
+          "url": "https://www.reddit.com/r/SideProject/comments/1rdisn4/i_built_a_marketplace_where_developers_can_find/",
+          "author": "Efebstnci_",
+          "created_at": "2026-02-24T15:11:40+00:00",
+          "engagement": {
+            "score": 2,
+            "comments": 0
+          },
+          "problem_statement": "I built a marketplace where developers can find validated app ideas to build - NeedThis.app.",
+          "target_audience": "Developers",
+          "existing_solutions": [],
+          "frustration_level": 3,
+          "frequency_indicator": "Single signal (monitor for repeats)",
+          "keywords": [
+            "app",
+            "needthi",
+            "vote",
+            "built",
+            "build",
+            "developer",
+            "marketplace",
+            "submit"
+          ],
+          "raw_excerpt": "Sick of staring at a blank page trying to think of what to build next? I built [NeedThis.app](http://NeedThis.app) \\- a two-sided marketplace where: \u2192 Users submit \"I wish there was an app for X\" ideas \u2192 Community vot...",
+          "metadata": {
+            "subreddit": "SideProject",
+            "is_self": false
+          }
+        }
+      ],
+      "keywords": [
+        "built",
+        "app",
+        "feedback",
+        "store",
+        "build",
+        "developer",
+        "board",
+        "another",
+        "generation",
+        "crypto"
+      ],
+      "score": 54.06,
+      "rank": 3
+    },
+    {
+      "theme": "I built a Mental Health app with psychologists in 18 months.",
+      "signal_count": 19,
+      "avg_frustration": 2.68,
+      "sources": [
+        "hn",
+        "reddit"
+      ],
+      "top_source": "reddit",
+      "source_counts": {
+        "hn": 1,
+        "reddit": 18
+      },
+      "signals": [
+        {
+          "signal_id": "hn:47141330",
+          "source": "hn",
+          "title": "I got my phone bill down to $6.25/month after years of overpaying",
+          "url": "https://news.ycombinator.com/item?id=47141330",
+          "author": "huntsmans",
+          "created_at": "2026-02-24T19:14:38Z",
+          "engagement": {
+            "score": 3,
+            "comments": 3
+          },
+          "problem_statement": "I got my phone bill down to $6.25/month after years of overpaying.",
+          "target_audience": "Software builders",
+          "existing_solutions": [
+            "around 8-10GB of data monthly"
+          ],
+          "frustration_level": 2,
+          "frequency_indicator": "Single signal (monitor for repeats)",
+          "keywords": [
+            "prepaid",
+            "infimobile",
+            "year",
+            "plan",
+            "cheap",
+            "month",
+            "monthly",
+            "annual"
+          ],
+          "raw_excerpt": "I spent 4 years paying $65/month for a postpaid plan. That's $3,120 I'll never get back.A few months ago I finally sat down and audited my actual usage. Turns out I was using around 8-10GB of data monthly, maybe 200 m...",
+          "metadata": {
+            "hn_tags": [
+              "story",
+              "author_huntsmans",
+              "story_47141330",
+              "ask_hn"
+            ],
+            "story_id": 47141330,
+            "story_title": null,
+            "search_source": "ask_hn"
+          }
+        },
+        {
+          "signal_id": "reddit:1r0xqrs",
+          "source": "reddit",
+          "title": "I built a Mental Health app with psychologists in 18 months. Now schools in Germany want it. Here's what I got wrong (6-year story).",
+          "url": "https://www.reddit.com/r/SideProject/comments/1r0xqrs/i_built_a_mental_health_app_with_psychologists_in/",
+          "author": "Patient-Coconut-2111",
+          "created_at": "2026-02-10T10:58:49+00:00",
+          "engagement": {
+            "score": 53,
+            "comments": 45
+          },
+          "problem_statement": "I built a Mental Health app with psychologists in 18 months.",
+          "target_audience": "Indie founders / startup teams",
+          "existing_solutions": [
+            "something else. I started post"
+          ],
+          "frustration_level": 5,
+          "frequency_indicator": "Recurring pain mention",
+          "keywords": [
+            "year",
+            "amp",
+            "school",
+            "germany",
+            "built",
+            "month",
+            "didn",
+            "building"
+          ],
+          "raw_excerpt": "Hi there, I\u2019m Finn (25), from Germany. [Picture of me and my roommate Jan](https://preview.redd.it/99-99-lifetime-free-alera-mental-health-new-voice-mode-v0-dk0tb0mxboeg1.png?width=1080&amp;crop=smart&amp;auto=webp&am...",
+          "metadata": {
+            "subreddit": "SideProject",
+            "is_self": true
+          }
+        },
+        {
+          "signal_id": "reddit:1rco4aq",
+          "source": "reddit",
+          "title": "I built an AI that plans trips using Reddit's best-kept secrets",
+          "url": "https://www.reddit.com/r/SideProject/comments/1rco4aq/i_built_an_ai_that_plans_trips_using_reddits/",
+          "author": "dranrebe",
+          "created_at": "2026-02-23T17:39:59+00:00",
+          "engagement": {
+            "score": 0,
+            "comments": 5
+          },
+          "problem_statement": "I built an AI that plans trips using Reddit's best-kept secrets.",
+          "target_audience": "Students / learners",
+          "existing_solutions": [],
+          "frustration_level": 3,
+          "frequency_indicator": "Recurring pain mention",
+          "keywords": [
+            "trip",
+            "actually",
+            "itinerary",
+            "built",
+            "friend",
+            "real",
+            "plan",
+            "open"
+          ],
+          "raw_excerpt": "I've always been the \"trip planner\" friend. You know the one \u2014 Google Docs with 47 tabs open, cross-referencing blog posts from 2019, trying to figure out if that ramen shop in Shimokitazawa is still open. Last year I...",
+          "metadata": {
+            "subreddit": "SideProject",
+            "is_self": true
+          }
+        }
+      ],
+      "keywords": [
+        "building",
+        "month",
+        "built",
+        "real",
+        "year",
+        "actually",
+        "build",
+        "plan",
+        "didn",
+        "trip"
+      ],
+      "score": 50.92,
+      "rank": 4
+    },
+    {
+      "theme": "I launched my first monetized iOS app 3 months ago.",
+      "signal_count": 15,
+      "avg_frustration": 3.07,
+      "sources": [
+        "hn",
+        "reddit"
+      ],
+      "top_source": "reddit",
+      "source_counts": {
+        "hn": 1,
+        "reddit": 14
+      },
+      "signals": [
+        {
+          "signal_id": "hn:47139891",
+          "source": "hn",
+          "title": "Ask HN: Why do task apps fail at task initiation?",
+          "url": "https://news.ycombinator.com/item?id=47139891",
+          "author": "gbessoni",
+          "created_at": "2026-02-24T17:29:34Z",
+          "engagement": {
+            "score": 1,
+            "comments": 3
+          },
+          "problem_statement": "Ask HN: Why do task apps fail at task initiation?",
+          "target_audience": "Software builders",
+          "existing_solutions": [],
+          "frustration_level": 2,
+          "frequency_indicator": "Single signal (monitor for repeats)",
+          "keywords": [
+            "task",
+            "apps",
+            "pattern",
+            "fail",
+            "initiation",
+            "actually",
+            "start",
+            "reddit"
+          ],
+          "raw_excerpt": "I\u2019ve noticed many task apps are good at planning, but still weak at helping people actually start.I dug through Reddit threads on ADHD/executive dysfunction and kept seeing the same pattern: people don\u2019t need more org...",
+          "metadata": {
+            "hn_tags": [
+              "story",
+              "author_gbessoni",
+              "story_47139891",
+              "ask_hn"
+            ],
+            "story_id": 47139891,
+            "story_title": null,
+            "search_source": "ask_hn"
+          }
+        },
+        {
+          "signal_id": "reddit:1qyl08n",
+          "source": "reddit",
+          "title": "I launched my first monetized iOS app 3 months ago. Here's every mistake I made (and the numbers).",
+          "url": "https://www.reddit.com/r/SideProject/comments/1qyl08n/i_launched_my_first_monetized_ios_app_3_months/",
+          "author": "Stock_Bid_8715",
+          "created_at": "2026-02-07T18:14:50+00:00",
+          "engagement": {
+            "score": 102,
+            "comments": 93
+          },
+          "problem_statement": "I launched my first monetized iOS app 3 months ago.",
+          "target_audience": "Developers",
+          "existing_solutions": [
+            "to earn from it. This time I w",
+            "monetizing earlier"
+          ],
+          "frustration_level": 5,
+          "frequency_indicator": "Recurring pain mention",
+          "keywords": [
+            "app",
+            "lesson",
+            "month",
+            "product",
+            "real",
+            "first",
+            "apps",
+            "actually"
+          ],
+          "raw_excerpt": "Hey everyone, wanted to quickly share of what the last 3 months looked like after launching my first \"proper\" iOS app [DayZen](https://apps.apple.com/us/app/dayzen-visual-time-planner/id6754326173) (a visual time-bloc...",
+          "metadata": {
+            "subreddit": "SideProject",
+            "is_self": false
+          }
+        },
+        {
+          "signal_id": "reddit:1qwjpz6",
+          "source": "reddit",
+          "title": "I built a product with no competitors \u2014 and that turned out to be the problem",
+          "url": "https://www.reddit.com/r/SideProject/comments/1qwjpz6/i_built_a_product_with_no_competitors_and_that/",
+          "author": "withdeni",
+          "created_at": "2026-02-05T12:15:54+00:00",
+          "engagement": {
+            "score": 1,
+            "comments": 0
+          },
+          "problem_statement": "I built a product with no competitors \u2014 and that turned out to be the problem.",
+          "target_audience": "Students / learners",
+          "existing_solutions": [
+            "influencer platforms like Upfl",
+            "everything I could think of. R",
+            "to do what I thought was the r"
+          ],
+          "frustration_level": 2,
+          "frequency_indicator": "Recurring pain mention",
+          "keywords": [
+            "tried",
+            "product",
+            "didn",
+            "app",
+            "wasn",
+            "part",
+            "reddit",
+            "before"
+          ],
+          "raw_excerpt": "I\u2019m not really posting this to promote anything, I\u2019m mostly writing it because I wish I had read something like this earlier. I run a small programming studio and besides building things for clients we sometimes try t...",
+          "metadata": {
+            "subreddit": "SideProject",
+            "is_self": true
+          }
+        }
+      ],
+      "keywords": [
+        "actually",
+        "because",
+        "real",
+        "building",
+        "month",
+        "product",
+        "app",
+        "first",
+        "part",
+        "saas"
+      ],
+      "score": 46.05,
+      "rank": 5
+    }
+  ],
+  "warnings": [
+    "github fetch failed: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/jaywcjlove/daybar'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ]
+}
